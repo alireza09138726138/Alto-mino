@@ -1,0 +1,237 @@
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+/* nav */
+.navbar{
+  background-color: #ffffff !important;
+  height: 76px;
+  padding: 4px 0;
+    
+}
+
+.navbar ul li{
+  padding: 10px 0px;
+}
+
+.navbar ul li a {
+ transition: ease-in-out all 0.5s;
+ font-size: smaller;
+ position: relative;
+ display: inline-block;
+ color: #2e2d2d !important;
+ text-transform: uppercase;
+ line-height: 76px;
+ padding: 0 22px;
+}
+/* style hover for a of nav */
+
+.navbar ul li a::before,.navbar ul li a::after{
+  content:"";
+  opacity: .2;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #201a1a;
+}
+
+.navbar ul li a:hover::before, .navbar ul li a:hover::after{
+  width: 100%;
+}
+
+.navbar ul li a:hover{
+    background-color: aquamarine;
+}
+
+
+
+/* logo of nav */
+.navbar .media img {
+  position: relative;
+  left: 0;
+  
+}
+
+.media-min {
+  display: none;
+}
+.media-body h5 {
+      text-transform: uppercase;
+      font-weight: 1000;
+      font-size: x-large;
+      margin: auto;
+}
+
+
+/* btn of menu download */
+.butn {
+  opacity: .7;
+  background-color: rgb(105, 13, 224);
+  border: none;
+  color: white;
+  padding: 15px 35px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: smaller;
+  font-weight: 1000;
+  letter-spacing: 1px;
+  position: relative;
+  }
+
+  /* style for hover of buton nav */
+  @import url(https://fonts.googleapis.com/css?family=PT+Sans);
+  *, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+   .butn::before, .butn::after{
+    content:"";
+    opacity: .5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #ffffff;
+     
+  }
+
+  .butn:hover::before, .butn:hover::after{
+    width: 100%;
+    
+  }
+  .butn:hover span::before, .butn:hover span::after{
+    height: 100%;
+    
+  }
+ 
+  
+  
+  /*----- button 6 -----*/
+  /*----- button 6 -----*/
+.btn-6::before{
+left: 50%;
+top: 0;
+transition-duration: 0.4s;
+}
+.btn-6::after{
+left: 50%;
+bottom: 0;
+transition-duration: 0.4s;
+}
+.btn-6 span::before{
+left: 0;
+top: 50%;
+transition-duration: 0.4s;
+}
+.btn-6 span::after{
+right: 0;
+top: 50%;
+transition-duration: 0.4s;
+}
+.btn-6:hover::before, .btn-6:hover::after{
+left: 0;
+}
+.btn-6:hover span::before, .btn-6:hover span::after{
+top: 0;
+}
+  
+/* end logo of nav */
+
+
+.iconn{
+  display: none;
+}
+.searchh {
+  display: none;
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+/* end icon of nav */
+
+
+/* @media width 991px */
+
+@media(max-width:991px) {
+
+  /* nav */
+  .navbar{
+    background-color: #ffffff !important;
+    text-align: center; 
+  }
+
+  .navbar ul{
+    background-color: #ffffff !important;
+  }
+
+  .navbar ul li {
+    padding: 0px 0px;
+  }
+  
+  .navbar ul li a{
+    color: rgb(156, 156, 163) !important;
+    text-align: center !important;
+    width: 100%;
+  }
+  
+  .navbar ul li a:hover {
+    width: 100%;
+  }
+  
+  .navbar ul {
+    width: 100%;
+  }
+  .nav-link {
+    padding: 0 22px;
+    line-height: 30px;
+    transition: ease-in-out all 0.3s;
+  }
+
+  /* icon nav */
+  
+  .d-inline{
+    display: inline;
+  }
+  
+  /* logo */
+  .media {
+    display: none;
+  }
+
+  .media-min {
+    display: flex;
+    align-items: center;
+  }
+
+/* end logo */
+
+  .bg-color {
+    background-color: #ffffff;
+  }
+
+  
+.m-b {
+  padding: 10px 10px;
+}
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
