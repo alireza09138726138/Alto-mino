@@ -10,7 +10,7 @@ $(document).ready(function(){
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
+    if (prevScrollpos > currentScrollPos) {
       document.getElementById("navbar").style.top = "0";
       $('.img,.img-logo').removeClass('menu');
       $("h5").addClass("h55").removeClass('h5');
@@ -32,4 +32,4 @@ $(document).ready(function(){
     }
     prevScrollpos = currentScrollPos;
   }
-  // end scroll
+  // end scroll      .cover 
