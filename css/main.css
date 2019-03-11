@@ -1,5 +1,6 @@
 
 
+
 body {
   margin: 0;
   background-color: black;
@@ -243,8 +244,17 @@ top: 0;
       font-size: smaller;
       margin: auto;
       position: relative;
-     top:4px;
+      top:4px;
     }
+
+  .h-up {
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: x-large;
+    margin: auto;
+    position: relative;
+      
+  }  
     
   .butnn {
       display: none;
@@ -261,16 +271,8 @@ top: 0;
     z-index: 1000;
     
   }
-  .navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-}
   
+
 
   .navbar ul{
     background-color: #ffffff !important;
@@ -300,14 +302,13 @@ top: 0;
     transition: ease-in-out all 0.3s;
   }
 
-  /* icon nav */
+  /*  */
   
   .d-inline{
     display: inline;
   }
   
-  /* logo */
-  .media {
+  .img, .media h5{
     display: none;
   }
 
@@ -327,17 +328,46 @@ top: 0;
   padding: 10px 10px;
  }
 
+ .wrapper .cover {
+  background-position: center;
+}
+
  .wrapper .cover .inner {
   position: relative;
   
-  transform: translateY(30%);
+  transform: translateY(70%);
   color: #fff;
  } 
 
  .wrapper .cover .inner h1 {
   font-size: xx-large;
  }
+
+ .navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 }
+  
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
