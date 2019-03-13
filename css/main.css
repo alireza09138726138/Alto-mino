@@ -3,7 +3,7 @@
 
 body {
   margin: 0;
-  background-color: black;
+  background-color: #fff;
 }
 
 /* nav */
@@ -99,6 +99,7 @@ body {
   font-weight: 1000;
   letter-spacing: 1px;
   position: relative;
+  box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
   }
 
   .but:hover {
@@ -106,15 +107,24 @@ body {
     transition: all 0.2s linear;
   }
 
+  hr.style1{
+    border: 2px solid rgb(105, 13, 224);
+    width: 2%;
+    opacity: .8;
+  }
+
+  .color {
+    color: rgb(64, 64, 65);
+    font-weight: 100;
+    
+  }
+.collapsee {
+  display: none;
+}
   
 
   /* style for hover of buton nav */
-  @import url(https://fonts.googleapis.com/css?family=PT+Sans);
-  *, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  
    .butn::before, .butn::after{
     content:"";
     opacity: .5;
@@ -197,6 +207,9 @@ top: 0;
   box-shadow: inset 0 0 0 10000px rgba(0, 0, 0, 0.3);
 }
 
+
+
+
 .wrapper .cover .container {
   width: 50%;
 }
@@ -260,7 +273,230 @@ top: 0;
       display: none;
   }
 
-/* @media width 991px */
+
+  /* start content */
+
+  .cover1 {
+    position: relative;
+    background-image: url("../img/1137802_ou_pp.jpg");
+    background-size: cover;
+    background-attachment: center;
+    height: 500px;
+    box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+  }
+
+  .cardd h1 {
+    color: rgb(61, 60, 60);
+  }
+
+  .cardd p {
+    color: rgb(88, 86, 86);
+  }
+
+  hr.style2{
+    border: 2px solid rgb(105, 13, 224);
+    width: 6%;
+    opacity: .8;
+    position: absolute;
+    
+  }
+
+  .cardd i {
+    font-size:large;
+    color:#fff;
+    position: relative;
+    top:1.3px;
+  }
+
+  .cover2 {
+    position: relative;
+    background-image: url("../img/1137802_fr_pp.jpg");
+    background-size: cover;
+    background-attachment: center;
+    height: 500px;
+    
+    box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .cover3 {
+    position: relative;
+    background-image: url("../img/japanese-fashion-trends-231848-1502226837022-main.700x0c.jpg");
+    background-size: cover;
+    background-attachment: center;
+    height: 500px;
+    box-shadow: 0 25px 32px -11px rgba(0, 0, 0, 0.3);
+  }
+
+
+  .wrapper .cover4 {
+    position: relative;
+    background-image: url("../img/ian-dooley-347962-1240x826.jpg");
+    background-size: cover;
+    /* background-attachment: ; */
+    height: 700px;
+    box-shadow: inset 0 0 0 10000px rgba(20, 2, 179, 0.6);
+  }
+
+  .cover4 .row {
+    margin: 0 0;
+  }
+
+  .wrapper .cover4 h1 {
+    font-family: 'Cabin';
+    color: #fff;
+    
+  }
+
+  .topp {
+    position: relative;
+    top:11%;
+  }
+
+ .pad-b {
+  padding-bottom:4em
+ }
+
+
+ .card-body p {
+    font-size:small;
+    color:#6c757d !important;
+ }
+
+ .carddd {
+   border:none;
+ }
+
+ .box-shado {
+  box-shadow: inset -5px -83px 62px -30px rgba(0,0,0,0.31);
+ }
+
+ .shadow {
+  box-shadow: -8px 18px 63px -16px rgba(0,0,0,0.31);
+  width: 90%;
+}
+
+.shadow img {
+  background-color: #43c407;
+  opacity: .7;
+}
+
+.shadow .Windows {
+  background-color: #6f82ee;
+  opacity: .7;
+}
+
+.shadow .apple {
+  background-color: #b3b3b9;
+  opacity: .7;
+}
+
+.pad-card {
+  padding: 15px 0;
+  border: none;
+}
+
+.card-img {
+  width: 65%;
+}
+
+.bordr {
+  padding:5px 0;
+  background-color: rgb(119, 81, 223);
+  width: 60%;
+  opacity: .9;
+}
+
+
+
+/* Footer */
+.card-bor {
+  border:none;
+  
+}
+
+.form-inline {
+  display: inline-flex;
+}
+
+.card-bor h4 {
+  font-size: large;
+}
+
+.card-bor .form-control, .card-bor .btn {
+  border-radius: 1.3rem;
+}
+
+.card-bor input[type="email"] {
+  width: 100%;
+  border: 1px solid rgb(105, 13, 224);
+  font-size: small;
+}
+.card-bor .btn {
+  font-size: small;
+  padding: 8px 28px;
+  opacity: .7;
+  background-color: rgb(105, 13, 224);
+  border: 1px solid rgb(105, 13, 224); 
+}
+
+.card-footer img {
+  box-shadow: 0px 0px 1px 12px rgba(160, 157, 157, 0.75);
+}
+
+.card {
+  border:none;
+}
+
+.bg-footer-color {
+  background-color: rgb(105, 13, 224);
+}
+
+.bg-footer-color h5 {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+
+.p-color h6 {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+
+.bordrr {
+  padding:1px 0;
+  background-color: #fff;
+  width: 70%;
+  opacity: .3;
+}
+
+.font-sz {
+  font-size: small;
+  color: #fff;
+}
+
+.nav-color a {
+  color: #fff;
+  font-size: small;
+}
+.colr-font {
+  color: #fff;
+  font-size: small;
+  position: relative;
+  right: 29px;
+}
+
+.form-inline a {
+ 
+  padding: 4px 6px;
+  color: #fff;
+  font-size: smaller;
+  }
+
+/* @media width 991px */  
 
 @media(max-width:991px) {
 
@@ -353,9 +589,24 @@ top: 0;
   list-style: none;
 }
   
+.cover1, .cover3, .cover2, .cover4 {
+  background-position: center;
+}
 
+.carddd img {
+  height: 50%;
+  width: 50%;
+}
+
+.colr-font {
+  color: #fff;
+  font-size: small;
+  position: relative;
+  right: 0px;
+}
  
 }
+
 
 
 
